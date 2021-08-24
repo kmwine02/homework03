@@ -102,7 +102,7 @@ function generatePassword() {
     password.push(possibleCharacters[randomCharacter]);
     console.log(password);
   }
-  return password;
+  return password.join("");
 }
 
 // Add event listener to generate button
